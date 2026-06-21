@@ -1,14 +1,14 @@
 cask "occ-secure-exports" do
-  version "0.8.0"
+  version "0.9.0"
 
   on_arm do
-    sha256 "253a7ca7d0333b5e3922f0c03014687c4a6f6511be1be2b5aab46b81a996253d"
-    url "https://github.com/JoschaP/occ-secure-exports/releases/download/v0.8.0/OCC.Secure.Exports_0.8.0_aarch64.dmg",
+    sha256 "c832fc5ec867b9da5b67bc93df7b5a438835fa6bc7a9b45d4962ead9504e70d7"
+    url "https://github.com/JoschaP/occ-secure-exports/releases/download/v0.9.0/OCC.Secure.Exports_0.9.0_aarch64.dmg",
         verified: "github.com/JoschaP/occ-secure-exports/"
   end
   on_intel do
-    sha256 "699d3aa47232420a4f61db9a5059536cd71d128409f2157458580d1ddb970043"
-    url "https://github.com/JoschaP/occ-secure-exports/releases/download/v0.8.0/OCC.Secure.Exports_0.8.0_x64.dmg",
+    sha256 "fea988d321673bfc7171353a55d40fc9a0540aee129e1d4d4d30dc7dea1ca42e"
+    url "https://github.com/JoschaP/occ-secure-exports/releases/download/v0.9.0/OCC.Secure.Exports_0.9.0_x64.dmg",
         verified: "github.com/JoschaP/occ-secure-exports/"
   end
 
