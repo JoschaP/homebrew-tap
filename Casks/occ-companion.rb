@@ -1,14 +1,14 @@
 cask "occ-companion" do
-  version "0.2.1"
+  version "0.3.0"
 
   on_arm do
-    sha256 "00b0285093f9b73da6a14708918b9e09b5eaa1915b0fbebaf6840fa299e81d87"
-    url "https://github.com/JoschaP/occ-companion/releases/download/v0.2.1/OCC.Companion_0.2.1_aarch64.dmg",
+    sha256 "0cdecc7ca2716752c4a4030e450f05a24e77d286db671e10cf6222c71ac97895"
+    url "https://github.com/JoschaP/occ-companion/releases/download/v0.3.0/OCC.Companion_0.3.0_aarch64.dmg",
         verified: "github.com/JoschaP/occ-companion/"
   end
   on_intel do
-    sha256 "80e4deb0ec542a61afab377d8fa648c7291e9d3215ddb75a5d3e7ef89627d13b"
-    url "https://github.com/JoschaP/occ-companion/releases/download/v0.2.1/OCC.Companion_0.2.1_x64.dmg",
+    sha256 "36dec258d9686559cc88bddb18b75a73d48c2d1821c43762ed2ff406c6d8e801"
+    url "https://github.com/JoschaP/occ-companion/releases/download/v0.3.0/OCC.Companion_0.3.0_x64.dmg",
         verified: "github.com/JoschaP/occ-companion/"
   end
 
